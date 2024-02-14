@@ -375,6 +375,10 @@ a {
     font-size: small;
     
 }
+.flex-container-other-project>div>div>figure>img{
+    width: 80px;
+    height: 80px;
+}
 .flex-container-other-project>div>div>div>div>div{
     margin-top: 5px;
 }
@@ -383,12 +387,16 @@ a {
 }
 
 .flex-container-other-project>div>div>div>div >img{
-    height: 20px;
+    height: 15px;
+    width: 15px;
     margin-right: 10px;
+
 
 }
 .flex-container-other-project>div>div>div>div >a>img{
-    height: 20px;
+   
+    height: 15px;
+    width: 15px;
 
 }
 
