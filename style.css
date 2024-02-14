@@ -5,6 +5,9 @@
     color: rgb(44, 44, 44);
 
 }
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
 html {
     scroll-behavior: smooth;
   }
@@ -95,7 +98,7 @@ a {
     /* Add black border */
     border-radius: 5px;
     /* Adjust border-radius for smoother rounded corners */
-    height: 25px;
+    height: 28px;
     text-align: center;
     padding: 3px 5px;
     margin: 5px;
@@ -282,6 +285,7 @@ a {
 .flex-container-project2 figure img {
     width: 300px;
     height: 200px;
+    border-radius: 10px;
 }
 
 
