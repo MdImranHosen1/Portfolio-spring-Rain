@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body> 
+  <body>
     <!-- start header -->
     <header class="flex-container navbar-style">
       <div class="">
@@ -15,24 +15,24 @@
         </a>
       </div>
 
-    
-        <ul class="flex-container">
-          <li class=" nav-item">
-            <a  href="#about" title="about">About</a>
-          </li>
-          <li class=" nav-item">
-            <a class="" href="#experience" title="experience">Experience</a>
-          </li>
-          <li class=" nav-item"><a class="" href="#project" title="project">Project</a></li>
-          <li class=" nav-item ">
-            <a class="" href="#contact" title="contact">Contact</a>
-          </li>
-        </ul>
-   
-      <div class=" flex-container ">
+      <ul class="flex-container">
+        <li class="nav-item">
+          <a href="#about" title="about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="" href="#experience" title="experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="" href="#project" title="project">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="" href="#contact" title="contact">Contact</a>
+        </li>
+      </ul>
+
+      <div class="flex-container">
         <span class="button-style"><a href="#">Resume</a></span>
-        <span class="button-style"><a  href="#">Hire Me</a></span>
-        
+        <span class="button-style"><a href="#">Hire Me</a></span>
       </div>
     </header>
     <!-- end header -->
@@ -41,72 +41,81 @@
       <div id="introduction-name-style">Hi, I'm Imran Hosen</div>
       <div>I design and build things</div>
       <div id="introduction-logo-style">
-        <img src="./images/down-arrow.png"/>
+        <img src="./images/down-arrow.png" />
       </div>
     </div>
     <!-- Introduction end -->
     <!-- About start -->
     <div class="about-main-div">
-      <div ><h1>About Me</h1></div>
-      <div class="flex-container-about" > 
-        
+      <div><h1>About Me</h1></div>
+      <div class="flex-container-about">
         <article>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
-            excepturi nesciunt eligendi deleniti vero voluptatibus consequatur ad
-            quaerat officiis eos facilis, libero, incidunt nobis fuga repudiandae
-            sunt! Dolorem, iure odit!</p><br>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
-                excepturi nesciunt eligendi deleniti vero voluptatibus consequatur ad
-                quaerat officiis eos facilis, libero, incidunt nobis fuga repudiandae
-                sunt! Dolorem, iure odit!</p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+            excepturi nesciunt eligendi deleniti vero voluptatibus consequatur
+            ad quaerat officiis eos facilis, libero, incidunt nobis fuga
+            repudiandae sunt! Dolorem, iure odit!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+            excepturi nesciunt eligendi deleniti vero voluptatibus consequatur
+            ad quaerat officiis eos facilis, libero, incidunt nobis fuga
+            repudiandae sunt! Dolorem, iure odit!
+          </p>
         </article>
         <figure>
-            <img  src="./images/imran.jpg" />
-          </figure>
+          <img src="./images/imran.jpg" />
+        </figure>
       </div>
     </div>
     <!-- About end -->
     <!-- Experience start -->
-    <div>
+    <div class="experience-main-div">
       <div><h1>Experience</h1></div>
-      <section>
-        <div>
+
+      <section class="flex-container-experience">
+        <div class="flex-container-experience-div-1">
           <h3>Job title</h3>
           <p>Company name</p>
           <hr />
           <p>Apr 2018 - Dec 2022</p>
         </div>
-        <ul>
+        <div class="vertical1"></div>
+        <!-- Vertical line here -->
+        <ul class="flex-container-experience-ul-1">
           <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
           <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
           <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
         </ul>
       </section>
-      <section>
-        <ul>
+
+      <section class="flex-container-experience">
+        <ul class="flex-container-experience-ul-2">
           <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
           <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
           <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
         </ul>
-        <div>
+        <div class="flex-container-experience-div-2">
           <h3>Job title</h3>
           <p>Company name</p>
           <hr />
           <p>Apr 2018 - Dec 2022</p>
         </div>
+        <div class="vertical2"></div>
       </section>
     </div>
     <!-- Experience end -->
     <!-- Project start -->
-    <div>
+    <div class="project-style">
       <!-- Featured Project start -->
-      <div>
+      <div class="freatured-project-style">
         <div><h1>Featured Project</h1></div>
-        <section>
+        <section class="flex-container-project flex-container-project1">
           <figure>
-            <img height="100px" src="/images/imran.jpg" />
+            <img height="100px" src="/images/2328019.jpg" />
           </figure>
-          <div>
+          <div class="features-project-text">
             <div>
               <h3>Project Name</h3>
               <p>
@@ -124,55 +133,60 @@
               </div>
             </div>
             <div>
-              <span>git logo</span>
-              <a href="">git logo</a>
+              <img src="./images/github-logo.png" />
+              <a href="#"><img src="./images/external-link.png" /> </a>
             </div>
           </div>
         </section>
-        <section>
-          <div>
-            <h3>Project Name</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
-              architecto debitis expedita, necessitatibus nulla tempore officia
-              sed placeat minima earum temporibus magni.
-            </p>
-            <hr />
+        <section
+          class="flex-container-project flex-container-project2"
+          style="text-align: right"
+        >
+          <div class="features-project-text">
             <div>
-              <span>Html</span>
-              <span>CSS</span>
-              <span>JS</span>
-              <span>CSS</span>
-              <span>JS</span>
+              <h3>Project Name</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
+                architecto debitis expedita, necessitatibus nulla tempore
+                officia sed placeat minima earum temporibus magni.
+              </p>
+              <hr />
+              <div>
+                <span>Html</span>
+                <span>CSS</span>
+                <span>JS</span>
+                <span>CSS</span>
+                <span>JS</span>
+              </div>
             </div>
             <div>
-              <span>git logo</span>
-              <a href="">git logo</a>
+              <img src="./images/github-logo.png" />
+              <a href="#"><img src="./images/external-link.png" /> </a>
             </div>
           </div>
           <figure>
-            <img height="100px" src="/images/imran.jpg" />
+            <img height="100px" src="/images/5136474.jpg" />
           </figure>
-          <div></div>
         </section>
       </div>
       <!-- Featured Project end -->
 
       <!-- Other Project start -->
-      <div>
+      <div class="">
         <div><h1>Other Project</h1></div>
-        <section>
+
+        <div class="flex-container-other-project">
           <div>
-            <figure>
-                <img height="100px" src="/images/imran.jpg" />
+            <div>
+              <figure>
+                <img height="100px" src="/images/video-calling-app.png" />
               </figure>
               <div>
                 <div>
                   <h3>Project Name</h3>
                   <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
-                    architecto debitis expedita, necessitatibus nulla tempore
-                    officia sed placeat minima earum temporibus magni.
+                    architecto debitis expedita, 
                   </p>
                   <hr />
                   <div>
@@ -184,111 +198,112 @@
                   </div>
                 </div>
                 <div>
-                  <span>git logo</span>
-                  <a href="">git logo</a>
+                    <img src="./images/github-logo.png" />
+                    <a href="#"><img src="./images/external-link.png" /> </a>
                 </div>
               </div>
-              <div>
-                <figure>
-                    <img height="100px" src="/images/imran.jpg" />
-                  </figure>
-                  <div>
-                    <div>
-                      <h3>Project Name</h3>
-                      <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
-                        architecto debitis expedita, necessitatibus nulla tempore
-                        officia sed placeat minima earum temporibus magni.
-                      </p>
-                      <hr />
-                      <div>
-                        <span>Html</span>
-                        <span>CSS</span>
-                        <span>JS</span>
-                        <span>CSS</span>
-                        <span>JS</span>
-                      </div>
-                    </div>
-                    <div>
-                      <span>git logo</span>
-                      <a href="">git logo</a>
-                    </div>
-                  </div>
-              </div>
-          </div>
-        </section>
-        <section>
+            </div>
             <div>
               <figure>
-                  <img height="100px" src="/images/imran.jpg" />
-                </figure>
+                <img height="100px" src="/images/maps.png" />
+              </figure>
+              <div>
                 <div>
+                  <h3>Project Name</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
+                    architecto debitis expedita, 
+                  </p>
+                  <hr />
                   <div>
-                    <h3>Project Name</h3>
-                    <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
-                      architecto debitis expedita, necessitatibus nulla tempore
-                      officia sed placeat minima earum temporibus magni.
-                    </p>
-                    <hr />
-                    <div>
-                      <span>Html</span>
-                      <span>CSS</span>
-                      <span>JS</span>
-                      <span>CSS</span>
-                      <span>JS</span>
-                    </div>
-                  </div>
-                  <div>
-                    <span>git logo</span>
-                    <a href="">git logo</a>
+                    <span>Html</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                    <span>CSS</span>
+                    <span>JS</span>
                   </div>
                 </div>
                 <div>
-                  <figure>
-                      <img height="100px" src="/images/imran.jpg" />
-                    </figure>
-                    <div>
-                      <div>
-                        <h3>Project Name</h3>
-                        <p>
-                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
-                          architecto debitis expedita, necessitatibus nulla tempore
-                          officia sed placeat minima earum temporibus magni.
-                        </p>
-                        <hr />
-                        <div>
-                          <span>Html</span>
-                          <span>CSS</span>
-                          <span>JS</span>
-                          <span>CSS</span>
-                          <span>JS</span>
-                        </div>
-                      </div>
-                      <div>
-                        <span>git logo</span>
-                        <a href="">git logo</a>
-                      </div>
-                    </div>
+                    <img src="./images/github-logo.png" />
+                    <a href="#"><img src="./images/external-link.png" /> </a>
                 </div>
+              </div>
             </div>
-          </section>
+          </div>
+          <div>
+            <div>
+              <figure>
+                <img height="100px" src="/images/instagram.png" />
+              </figure>
+              <div>
+                <div>
+                  <h3>Project Name</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
+                    architecto debitis expedita, 
+                  </p>
+                  <hr />
+                  <div>
+                    <span>Html</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                  </div>
+                </div>
+                <div>
+                    <img src="./images/github-logo.png" />
+                    <a href="#"><img src="./images/external-link.png" /> </a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <figure>
+                <img height="100px" src="/images/calculator.png" />
+              </figure>
+              <div>
+                <div>
+                  <h3>Project Name</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
+                    architecto debitis expedita, 
+                  </p>
+                  <hr />
+                  <div>
+                    <span>Html</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                  </div>
+                </div>
+                <div>
+                    <img src="./images/github-logo.png" />
+                    <a href="#"><img src="./images/external-link.png" /> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- Other Project end -->
     </div>
     <!-- Project start -->
     <!-- Contact start-->
-    <div>
-        <div><h1>Contact</h1></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, error, corrupti sapiente voluptatem provident doloribus rerum voluptatibus, ad quia quidem unde et id tempora aspernatur! Totam commodi obcaecati atque suscipit.</p>
-        <button>
-            Write message
-        </button>
-        <div>
-            <a href="">github</a>
-            <a href="">Linkend</a>
-        </div>
-        <p>Imran 2023</p>
+    <div class="contact">
+      <div><h1>Contact</h1></div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, error,
+        corrupti sapiente voluptatem provident doloribus rerum voluptatibus, ad
+        quia quidem unde et id tempora aspernatur! Totam commodi obcaecati atque
+        suscipit.
+      </p>
+      <button>Write message</button>
+      <div>
+        <a href="">github</a>
+        <a href="">Linkend</a>
+      </div>
+      <p>Imran 2023</p>
     </div>
     <!-- Contact end-->
   </body>
