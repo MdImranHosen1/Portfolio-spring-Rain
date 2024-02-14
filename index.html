@@ -3,63 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
   </head>
-  <body>
+  <body> 
     <!-- start header -->
-    <header class="">
+    <header class="flex-container navbar-style">
       <div class="">
         <a class="" href="index.html">
-          <img src="images/logo.svg" alt="Homepage" />
+          <img height="30px" src="./images/house.png" alt="Homepage" />
         </a>
       </div>
 
-      <nav class="">
-        <ul class="">
-          <li>
-            <a class="" href="#about" title="about">About</a>
+    
+        <ul class="flex-container">
+          <li class=" nav-item">
+            <a  href="#about" title="about">About</a>
           </li>
-          <li>
+          <li class=" nav-item">
             <a class="" href="#experience" title="experience">Experience</a>
           </li>
-          <li><a class="" href="#project" title="project">Project</a></li>
-          <li>
+          <li class=" nav-item"><a class="" href="#project" title="project">Project</a></li>
+          <li class=" nav-item ">
             <a class="" href="#contact" title="contact">Contact</a>
           </li>
         </ul>
-      </nav>
-      <div>
-        <a class="" href="#"><span>Resume</span></a>
-        <a class="" href="#"><span>Hire Me</span></a>
+   
+      <div class=" flex-container ">
+        <span class="button-style"><a href="#">Resume</a></span>
+        <span class="button-style"><a  href="#">Hire Me</a></span>
+        
       </div>
     </header>
     <!-- end header -->
     <!-- Introduction start -->
-    <div>
-      <div>Hi, I'm Imran Hosen</div>
+    <div class="introduction-style">
+      <div id="introduction-name-style">Hi, I'm Imran Hosen</div>
       <div>I design and build things</div>
-      <div>Logo</div>
+      <div id="introduction-logo-style">
+        <img src="./images/down-arrow.png"/>
+      </div>
     </div>
     <!-- Introduction end -->
     <!-- About start -->
-    <div>
-      <div>About</div>
-      <div>
-        <figure>
-          <img style="height: 200px" src="./images/imran.jpg" />
-        </figure>
+    <div class="about-main-div">
+      <div ><h1>About Me</h1></div>
+      <div class="flex-container-about" > 
+        
         <article>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
-          excepturi nesciunt eligendi deleniti vero voluptatibus consequatur ad
-          quaerat officiis eos facilis, libero, incidunt nobis fuga repudiandae
-          sunt! Dolorem, iure odit!
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+            excepturi nesciunt eligendi deleniti vero voluptatibus consequatur ad
+            quaerat officiis eos facilis, libero, incidunt nobis fuga repudiandae
+            sunt! Dolorem, iure odit!</p><br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+                excepturi nesciunt eligendi deleniti vero voluptatibus consequatur ad
+                quaerat officiis eos facilis, libero, incidunt nobis fuga repudiandae
+                sunt! Dolorem, iure odit!</p>
         </article>
+        <figure>
+            <img  src="./images/imran.jpg" />
+          </figure>
       </div>
     </div>
     <!-- About end -->
     <!-- Experience start -->
     <div>
-      <div>Experience</div>
+      <div><h1>Experience</h1></div>
       <section>
         <div>
           <h3>Job title</h3>
@@ -92,7 +101,7 @@
     <div>
       <!-- Featured Project start -->
       <div>
-        <div>Featured Project</div>
+        <div><h1>Featured Project</h1></div>
         <section>
           <figure>
             <img height="100px" src="/images/imran.jpg" />
@@ -151,7 +160,7 @@
 
       <!-- Other Project start -->
       <div>
-        <div>Other Project</div>
+        <div><h1>Other Project</h1></div>
         <section>
           <div>
             <figure>
@@ -270,7 +279,7 @@
     <!-- Project start -->
     <!-- Contact start-->
     <div>
-        <div>Contact</div>
+        <div><h1>Contact</h1></div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, error, corrupti sapiente voluptatem provident doloribus rerum voluptatibus, ad quia quidem unde et id tempora aspernatur! Totam commodi obcaecati atque suscipit.</p>
         <button>
             Write message

@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    color: rgb(44, 44, 44);
+
+}
+
+/* All page title style start */
+h1 {
+    overflow: hidden;
+    text-align: center;
+}
+
+h1:before,
+h1:after {
+    background-color: #333;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+/* All page title style start */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+
+/* Navbar style start */
+.navbar-style {
+    height: 55px;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    opacity: 96%;
+    
+}
+
+.nav-item {
+    margin-right: 10px;
+    margin-left: 10px;
+    list-style-type: none;
+    height: 25px;
+    text-align: center;
+    padding: 3px 5px;
+    margin: 5px;
+
+}
+
+.nav-item:hover {
+    background: #dedcdc;
+    border-radius: 5px;
+}
+
+/* Navbar style end */
+a {
+    text-decoration: none
+}
+
+/* all button style start */
+.button-style {
+
+    border: 1.5px solid rgb(193, 186, 186);
+    /* Add black border */
+    border-radius: 5px;
+    /* Adjust border-radius for smoother rounded corners */
+    height: 25px;
+    text-align: center;
+    padding: 3px 5px;
+    margin: 5px;
+
+}
+
+.button-style:hover {
+    border: 1.5px solid rgb(93, 91, 91);
+}
+
+/* all button style end */
+
+/* Introduction page style */
+.introduction-style{
+    margin-top: 55px;
+    height: 600px;
+
+}
+.introduction-style {
+    margin-top: 55px;
+    height: 600px;
+
+}
+.introduction-style {
+    margin-top: 200px;
+    text-align: center;
+}
+#introduction-name-style{
+ font-size: xx-large;
+ text-align: center;
+ margin-bottom: 10px;
+}
+#introduction-logo-style{
+    margin-top: 80px;
+}
+#introduction-logo-style img{
+    height: 20px;
+    width: 20px;
+}
+/* end home design */
+
+/* Start about page design */
+.about-main-div{
+    background-color: #e6e6e6;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+.flex-container-about{
+    display: flex;
+    margin-top: 30px;
+}
+.flex-container-about article{
+    margin: 5px;
+    justify-content: center;
+}
+.flex-container-about figure{
+    margin: 5px;
+    border-radius: 10px; 
+    width: 500px;
+    overflow: hidden;
+}
+.flex-container-about figure img {
+    width: 100%;
+}
