@@ -413,12 +413,13 @@ a {
 
 .flex-container-other-project > div > div {
     display: flex;
-    width: 100%; /* Ensure the nested flex container takes full width */
+    width: 100%; 
 }
 
 .flex-container-other-project > div > div > figure {
     margin-right: 5px;
     flex: 40%;
+    margin-bottom: 20px;
 }
 
 .flex-container-other-project > div > div > div {
