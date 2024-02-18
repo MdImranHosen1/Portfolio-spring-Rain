@@ -493,3 +493,32 @@ a {
     margin-left: 5px;
 
 }
+
+
+.Write-messege-button-style {
+
+    border: 1.5px solid rgb(193, 186, 186);
+    border-radius: 5px;
+    height: 28px;
+    text-align: center;
+    padding: 3px 5px;
+    margin: 5px;
+
+}
+.contact-write-messege-form{
+    /* display: flex; */
+    flex-direction: column;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: none;
+}
+.contact-write-messege-form>input,select,textarea{
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+#contact-send-messege{
+    height: 80px;
+}
