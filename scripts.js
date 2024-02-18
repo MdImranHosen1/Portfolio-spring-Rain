@@ -27,12 +27,12 @@ function toggleVisibilityOtherProject()
         other_project.style.display='block';
         see_more_project_button_text.textContent="Collapse ";
         
-        see_more_project_button_img.src="./images/viewless.png";
+        see_more_project_button_img.src="./images/viewLess.png";
     }
     else{
         other_project.style.display='none';
         see_more_project_button_text.textContent="See More ";
-        see_more_project_button_img.src="./images/viewmore.png";
+        see_more_project_button_img.src="./images/viewMore.png";
         
     }
 
