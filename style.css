@@ -404,7 +404,11 @@ a {
 
 /* Freatured project end*/
 
+
 /* other project start */
+#other-project-main-div{
+    display: none;
+}
 .flex-container-other-project {
     display: flex;
     margin-top: 20px;
@@ -468,6 +472,49 @@ a {
     width: 15px;
 
 }
+/* other project end */
+/* view more */
+#project-viewmore-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+    
+}
+#project-viewmore-button>span{
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+    display: flex;
+    cursor: pointer; 
+    background-color: rgb(245, 245, 245);
+    border: 1.5px solid rgb(193, 186, 186);
+    border-radius: 10px;
+    width: auto;
+    
+}
+
+#project-viewmore-button>span>img{
+    width: 30px;
+    align-items: center;
+    justify-items: center;
+    margin-left: 8px;
+    margin-right: 6px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#project-viewmore-button>span>div{
+   
+    align-items: center;
+    justify-items: center;
+    margin-right: 8px;
+    font-weight:500;
+    
+}
+/* view more end */
 
 /* project end */
 
@@ -495,14 +542,21 @@ a {
 }
 
 
-.Write-messege-button-style {
-
+.write-messege-button-style {
+    display: flex;
     border: 1.5px solid rgb(193, 186, 186);
     border-radius: 5px;
-    height: 28px;
-    text-align: center;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
     padding: 3px 5px;
-    margin: 5px;
+    margin: 20px;
+    font-size: medium;
+    cursor: pointer;
+    width: 130px;
+    margin: 5px auto
+
+    
 
 }
 .contact-write-messege-form{
