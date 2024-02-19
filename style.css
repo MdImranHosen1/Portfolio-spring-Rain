@@ -48,12 +48,20 @@ h1:after {
     justify-content: space-between;
     height: 100%;
     align-items: center;
-
-
 }
 
-
 /* Navbar style start */
+.hidden {
+    display: none;
+}
+
+#flex-container-head-large {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .navbar-style {
     height: 55px;
     background: rgb(255, 255, 255);
@@ -61,14 +69,12 @@ h1:after {
     position: fixed;
     top: 0;
     width: 100%;
+    
     z-index: 10;
     opacity: 96%;
-   
     padding-left: 10%;
     padding-right: 10%;
-
 }
-
 
 .nav-item {
     margin-right: 10px;
@@ -78,49 +84,27 @@ h1:after {
     text-align: center;
     padding: 3px 5px;
     margin: 5px;
-
 }
 
 .nav-item:hover {
-    background: #dedcdc;
+    background: #cccccc;
     border-radius: 5px;
 }
-
-/* Media queries for responsiveness */
-@media only screen and (max-width: 700px) and (min-width: 480px) {
-    .flex-container {
-        flex-wrap: wrap; /* Allow items to wrap */
-        justify-content: center;
-    }
-
-    .flex-container > div:last-child {
-        background-color: white; 
-        width: 60%; 
-        text-align: center; 
-        border-radius: 0px 0px 50px 50px;
-        margin-top: -20px;
-    }
-
-   
+.navbar-2nd-div {
+    display: flex;
 }
-@media only screen and (max-width:480px) {
-    .flex-container {
-        flex-wrap: wrap; 
-        justify-content: center;
-    }
-    .navbar-style >div:first-child{
-        visibility: hidden;
-        margin-bottom: -40px;
-    }
-    .flex-container > div {
-        background-color: white; 
-        width: 70%; 
-        text-align: center; 
-        border-radius: 0px 0px 50px 50px;
-        margin-top: -20px;
-    }
 
-   
+.navbar-2nd-div-2nd-div {
+    margin: 4px;
+    cursor: pointer;
+}
+
+
+#flex-container-head-small{
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -133,9 +117,7 @@ a {
 .button-style {
 
     border: 1.5px solid rgb(193, 186, 186);
-    /* Add black border */
     border-radius: 5px;
-    /* Adjust border-radius for smoother rounded corners */
     height: 28px;
     text-align: center;
     padding: 3px 5px;

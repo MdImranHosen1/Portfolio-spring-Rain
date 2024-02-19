@@ -9,7 +9,7 @@
   <body>
     <!-- start header -->
 
-    <header class="flex-container navbar-style">
+    <header id="flex-container-head-large" class="navbar-style" >
       <div>
         <a href="index.html">
           <img height="30px" src="./images/house.png" alt="Homepage" />
@@ -31,10 +31,62 @@
         </li>
       </ul>
 
-      <div class="flex-container">
-        <span class="button-style"><a href="#">Resume</a></span>
-        <span class="button-style"><a href="#">Hire Me</a></span>
+      <div class="navbar-2nd-div">
+        <div class="flex-container navbar-2nd-div-1st-div">
+          <span class="button-style"><a href="#">Resume</a></span>
+          <span class="button-style"><a href="#">Hire Me</a></span>
+        </div>
+        <div class="navbar-2nd-div-2nd-div" onclick="toggleVisibilityNavbar()">
+          <img
+            id="navbar-2nd-div-2nd-div-img"
+            height="30px"
+            src="./images/next.png"
+            alt="Toggle Navbar"
+          />
+        </div>
       </div>
+    </header>
+
+    <header
+    id="flex-container-head-small"
+    
+    >
+      <div
+        style="
+          display: flex;
+          width: 100%;
+          justify-content: space-between;
+          padding: 10px;
+        "
+      >
+        <div>
+          <a href="index.html">
+            <img height="30px" src="./images/house.png" alt="Homepage" />
+          </a>
+        </div>
+        <div id="hide-small-navbar" onclick="handleClickSmallNavbarToggle()">
+          <img id="small-navbar-menu-img" height="30px" src="./images/list.png" alt="Toggle Navbar" />
+        </div>
+      </div>
+
+      <ul class="unorder-list-small-navbar hidden">
+        <li class="nav-item">
+          <a href="#about" title="about">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#experience" title="experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a href="#project" title="project">Project</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" title="contact">Contact</a>
+        </li>
+        <div style="margin-bottom: 10px">
+          <span class="button-style"><a href="#">Resume</a></span>
+          <span class="button-style"><a href="#">Hire Me</a></span>
+        </div>
+      </ul>
     </header>
 
     <!-- end header -->
@@ -198,7 +250,7 @@
         </section>
       </div>
       <!-- Featured Project end -->
-      
+
       <!-- Other Project start -->
       <div id="other-project-main-div">
         <div><h1>Other Project</h1></div>
@@ -314,11 +366,12 @@
           </div>
         </div>
       </div>
-      <div  id="project-viewmore-button">
+      <div id="project-viewmore-button">
         <span onclick="toggleVisibilityOtherProject()">
-          <img id="other-project-seemore-img" src="images/viewMore.png" >
-          <div id="other-project-seemore-text">See More</div></span>
-      </div>  
+          <img id="other-project-seemore-img" src="images/viewmore.png" />
+          <div id="other-project-seemore-text">See More</div></span
+        >
+      </div>
       <!-- Other Project end -->
     </div>
     <!-- Project start -->
@@ -358,13 +411,20 @@
         <span
           onclick=" toggleVisibilityContactMessage()"
           class="write-messege-button-style"
-          ><a href="#contact" id="contact-write-message">Write Message</a></span>
+          ><a href="#contact" id="contact-write-message">Write Message</a></span
+        >
       </div>
       <div style="margin: 10px">
-        <a href="https://github.com/MdImranHosen1" target="_blank"
+        <a
+          href="https://github.com/MdImranHosen1"
+          target="_blank"
+          rel="noopener"
           ><img src="./images/githublogo.png" />
         </a>
-        <a href="https://www.linkedin.com/in/md-imran-hosen19/" target="_blank"
+        <a
+          href="https://www.linkedin.com/in/md-imran-hosen19/"
+          target="_blank"
+          rel="noopener"
           ><img src="./images/linkedin.png" />
         </a>
       </div>
