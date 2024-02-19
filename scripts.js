@@ -100,3 +100,24 @@ function handleClickSmallNavbarToggle()
         navbar_menu_img.src="./images/xmark.png";
     }
 }
+
+
+function handleClickAboutMore()
+{
+    let about_more=document.getElementById("about_more_div");
+    let about_more_button=document.getElementById("about_more_button_img");
+
+    if(about_more.classList.contains("hidden"))
+    {
+        about_more.classList.remove("hidden");
+        
+        about_more_button.src='./images/viewless.png';
+    }
+    else
+    {
+        about_more.classList.add("hidden");
+        about_more_button.src='./images/viewmore.png';
+    }
+
+
+}
