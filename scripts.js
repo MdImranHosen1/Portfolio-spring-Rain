@@ -1,3 +1,4 @@
+// contact from options
 function toggleVisibilityContactMessage() {
     let contact_message = document.getElementsByClassName('contact-write-messege-form')[0];
     let writeMessage=document.getElementById("contact-write-message");
@@ -14,7 +15,7 @@ function toggleVisibilityContactMessage() {
     }
 }
 
-
+// other project visibility option
 function toggleVisibilityOtherProject()
 {
     let other_project=document.getElementById("other-project-main-div")
@@ -36,7 +37,7 @@ function toggleVisibilityOtherProject()
         
     }
 }
-
+// large navbar toggle option
 function toggleVisibilityNavbar() {
     let navbar_items = document.getElementsByClassName("flex-container");
     let nevbar_menu_img=document.getElementById("navbar-2nd-div-2nd-div-img");
@@ -57,6 +58,7 @@ function toggleVisibilityNavbar() {
 
 }
 
+// Handle display size with navbar opations
 function handleResize() {
     var width = window.innerWidth;
 
@@ -79,10 +81,9 @@ function handleResize() {
 }
 
 document.addEventListener('DOMContentLoaded', handleResize);
-
 window.addEventListener('resize', handleResize);
 
-
+// small navbar toaggle option
 function handleClickSmallNavbarToggle()
 {
     let navbar_item = document.getElementsByClassName("unorder-list-small-navbar")[0];
