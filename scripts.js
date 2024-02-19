@@ -121,3 +121,18 @@ function handleClickAboutMore()
 
 
 }
+
+
+// Up  scroll button function
+document.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+    console.log(document.documentElement.scrollTop)
+    if (document.documentElement.scrollTop > 700) {
+        document.getElementById("scrollToTopBtn").style.display = "block";
+    } else {
+        document.getElementById("scrollToTopBtn").style.display = "none";
+    }
+}
+function scrollToTop() {
+    document.documentElement.scrollTop = 0; 
+}

@@ -565,3 +565,18 @@ a {
 #contact-send-messege{
     height: 80px;
 }
+
+/* scrool to top button */
+#scrollToTopBtn {
+    
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px;
+    z-index: 99;
+    background-color: #b8d8fa;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+}
